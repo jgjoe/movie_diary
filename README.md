@@ -2,7 +2,7 @@
 
 **일기를 쓰면 감정을 분석해 지금 볼 만한 영화를 골라주는 서비스 — 상시 서버 비용 없이 운영합니다**
 
-[![Live](https://img.shields.io/badge/live-GitHub%20Pages-success)](https://crushonyou2.github.io/movie_diary/)
+[![Live](https://img.shields.io/badge/live-GitHub%20Pages-success)](https://jgjoe.github.io/movie_diary/)
 [![Backend](https://img.shields.io/badge/backend-Cloud%20Run%20(scale--to--zero)-4285F4?logo=googlecloud&logoColor=white)](#설계-판단)
 [![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)](.github/workflows)
 
@@ -85,7 +85,7 @@ cd frontend && npm install && npm run dev
 
 ## 범위와 조건
 
-- 사용자 수·응답 시간 등 **운영 지표는 측정하지 않았습니다.** 측정 근거가 있는 프로젝트는 [benefit-compass](https://github.com/crushonyou2/benefit-compass)(60문항 평가셋)와 [Fridge-D-Day](https://github.com/crushonyou2/Fridge-D-Day)(55장 회귀 기준선)입니다.
+- 사용자 수·응답 시간 등 **운영 지표는 측정하지 않았습니다.** 측정 근거가 있는 프로젝트는 [benefit-compass](https://github.com/jgjoe/benefit-compass)(60문항 평가셋)와 [Fridge-D-Day](https://github.com/jgjoe/Fridge-D-Day)(55장 회귀 기준선)입니다.
 - 일기와 추천 기록은 브라우저 로컬에 저장되며 서버에 보관하지 않습니다. 기기를 바꾸면 이어지지 않습니다.
 - 감정 분석 결과는 LLM 출력이므로 같은 글에도 표현이 달라질 수 있습니다.
 
@@ -93,5 +93,5 @@ cd frontend && npm install && npm run dev
 
 **Jigwan Joe** — Backend · Frontend
 
-- GitHub: [@crushonyou2](https://github.com/crushonyou2)
+- GitHub: [@jgjoe](https://github.com/jgjoe)
 - Email: jigwan.joe@gmail.com
